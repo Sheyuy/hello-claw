@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="asset/logo.png" alt="Hello Claw Logo" width="200">
+<img src="asset/logo.png" alt="Hello Claw Logo" width="400">
 
 # Hello Claw: Learn OpenClaw from 0 to 1
 
