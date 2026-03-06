@@ -15,6 +15,10 @@ export default defineConfig({
       description: "从零到一学习 OpenClaw：领养你的 AI 龙虾助理，或从零构建属于你的智能体",
       themeConfig: {
         logo: '🦞',
+        outline: {
+          level: [2, 3],
+          label: '目录'
+        },
         nav: [
           { text: '领养龙虾', link: '/cn/adopt/' },
           { text: '构建龙虾', link: '/cn/build/' },
@@ -46,17 +50,16 @@ export default defineConfig({
               items: [
                 { text: '写在开头', link: '/cn/adopt/' },
                 { text: '第1章 十分钟上手 OpenClaw', link: '/cn/adopt/chapter1' },
-                { text: '第2章 理解 OpenClaw', link: '/cn/adopt/chapter2' },
-                { text: '第3章 移动端接入', link: '/cn/adopt/chapter3' },
-                { text: '第4章 自动化任务入门', link: '/cn/adopt/chapter4' },
-                { text: '第5章 Skills 技能系统', link: '/cn/adopt/chapter5' },
-                { text: '第6章 外部服务集成', link: '/cn/adopt/chapter6' },
-                { text: '第7章 生产环境部署', link: '/cn/adopt/chapter7' },
-                { text: '第8章 多模型与成本优化', link: '/cn/adopt/chapter8' },
-                { text: '第9章 个人助理系统', link: '/cn/adopt/chapter9' },
-                { text: '第10章 内容创作工具链', link: '/cn/adopt/chapter10' },
-                { text: '第11章 开发者效率提升', link: '/cn/adopt/chapter11' },
-                { text: '第12章 故障排查与优化', link: '/cn/adopt/chapter12' }
+                { text: '第2章 移动端接入', link: '/cn/adopt/chapter2' },
+                { text: '第3章 自动化任务入门', link: '/cn/adopt/chapter3' },
+                { text: '第4章 Skills 技能系统', link: '/cn/adopt/chapter4' },
+                { text: '第5章 外部服务集成', link: '/cn/adopt/chapter5' },
+                { text: '第6章 生产环境部署', link: '/cn/adopt/chapter6' },
+                { text: '第7章 多模型与成本优化', link: '/cn/adopt/chapter7' },
+                { text: '第8章 个人助理系统', link: '/cn/adopt/chapter8' },
+                { text: '第9章 内容创作工具链', link: '/cn/adopt/chapter9' },
+                { text: '第10章 开发者效率提升', link: '/cn/adopt/chapter10' },
+                { text: '第11章 故障排查与优化', link: '/cn/adopt/chapter11' }
               ]
             }
           ],
