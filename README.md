@@ -2,9 +2,9 @@
 
 <img src="asset/logo.png" alt="Hello Claw Logo" width="400">
 
-# Hello Claw: 从零到一学习 OpenClaw
+# 哈喽！龙虾 👋 零基础领养、成长你的第一只龙虾
 
-<p align="center"><em>从零开始掌握 OpenClaw：领养你的 AI 龙虾助理，或从零构建属于你的智能体</em></p>
+<p align="center"><em>Hello Claw：领养你的 AI 龙虾助理，从零构建属于你的智能助理，智能公司</em></p>
 
 <p align="center">
   📌 <a href="https://datawhalechina.github.io/hello-claw/">在线阅读</a> | 💬 <a href="#交流群">加入交流群</a>
