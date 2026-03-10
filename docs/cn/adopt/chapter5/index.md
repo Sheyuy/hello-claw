@@ -255,6 +255,8 @@ clawhub install skill-vetter
 
 ClawHub 上技能数量庞大，社区项目 [awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills) 从中精选了 **5,000+** 个高质量技能，按场景分类，过滤了大量低质和危险技能。如果上面 10 个不够用，去那里逛逛。
 
+如果你想先从“菜单式分类”挑技能，再深入看安装和配置，先去 [龙虾大学：Skills 选修地图](/cn/adopt/lobster-university)。
+
 ---
 
 ## 5. 技能分类速查

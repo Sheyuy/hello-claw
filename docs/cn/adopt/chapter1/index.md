@@ -71,7 +71,14 @@ OpenClaw 需要 Node.js 22+ 运行环境。如果你已经装过，跳到[第 2 
 >   </details>
 
 ::: tip 用 Trae CN 当安装助手（更省事）
-如果你安装了 [Trae CN](https://www.trae.cn/)（字节跳动推出的免费 AI 编程助手），可以把它当作你的“本地安装/排障助手”，你只需要描述目标与当前报错即可。
+
+如果你安装了 [Trae CN](https://www.trae.cn/)（字节跳动推出的免费 AI 编程助手），  
+可以把它当作你的“本地安装/排障助手”。  
+只需要在对话框里描述目标与当前报错即可。
+
+> 找不到输入框？  
+> 请在右上角寻找一个矩形图标，其右侧带有一条黑色长条的小图标，  
+> 点击即可展开 Trae CN 的侧边栏，随后就能开始对话。
 
 - 安装环境：`帮我安装 Node.js 22，并告诉我如何验证安装是否成功（我的系统是 Windows/macOS/Linux）`
 - 安装 OpenClaw：`帮我安装 openclaw@latest，并运行 openclaw --version 验证`

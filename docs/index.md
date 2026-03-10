@@ -10,6 +10,9 @@ hero:
       text: 开始使用
       link: /cn/adopt/
     - theme: alt
+      text: 🎓 龙虾大学
+      link: /cn/adopt/lobster-university
+    - theme: alt
       text: 深入开发
       link: /cn/build/
 
@@ -24,6 +27,8 @@ features:
     details: 创建定时提醒、自动化报告和周期性工作流
   - title: 🔧 Skills 技能系统
     details: 理解技能概念、安装市场技能和开发自定义技能
+  - title: 🎓 龙虾大学
+    details: 菜单式挑选 skills，先装最常用的 5~10 个，让龙虾更强且不污染上下文
   - title: 🤖 多模型支持
     details: 配置多个 LLM 模型、本地 Ollama 部署和 API 费用控制
 ---

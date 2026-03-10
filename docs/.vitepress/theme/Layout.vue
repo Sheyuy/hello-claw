@@ -66,6 +66,12 @@
             领养龙虾 <span class="opacity-80 group-hover:opacity-100 transition-opacity">→</span>
           </a>
           <a
+            :href="withBase('/cn/adopt/lobster-university')"
+            class="w-full sm:w-auto group flex items-center justify-center gap-2 bg-[#0f1623] hover:bg-white/10 border border-[#ff4d4d]/30 text-white font-bold rounded-full py-3 px-7 transition-all duration-300 hover:scale-105 active:scale-95"
+          >
+            🎓 龙虾大学 <span class="text-[#ff4d4d] group-hover:text-[#ff6b6b] transition-colors">→</span>
+          </a>
+          <a
             :href="withBase('/cn/build/')"
             class="w-full sm:w-auto group flex items-center justify-center gap-2 bg-white/5 hover:bg-white/10 border border-white/10 text-white font-bold rounded-full py-3 px-7 transition-all duration-300 hover:scale-105 active:scale-95"
           >
@@ -256,6 +262,8 @@
         <div class="flex justify-center gap-6 text-[#ff4d4d] text-sm mb-8">
           <a :href="withBase('/cn/adopt/chapter0')" class="hover:text-[#ff6b6b] transition-colors">领养龙虾</a>
           <span class="text-gray-600">•</span>
+          <a :href="withBase('/cn/adopt/lobster-university')" class="hover:text-[#ff6b6b] transition-colors">🎓 龙虾大学</a>
+          <span class="text-gray-600">•</span>
           <a :href="withBase('/cn/build/')" class="hover:text-[#ff6b6b] transition-colors">构建龙虾</a>
           <span class="text-gray-600">•</span>
           <a href="https://github.com/datawhalechina/hello-claw" target="_blank" rel="noreferrer" class="hover:text-[#ff6b6b] transition-colors">GitHub</a>
@@ -273,6 +281,134 @@
       </footer>
     </div>
   </div>
+  <div v-else-if="isLobsterUniversity" class="min-h-screen bg-[#050a10] text-white font-sans relative selection:bg-[#ff6b6b]/30">
+    <div class="fixed inset-0 z-0 overflow-hidden bg-[#050a10] pointer-events-none">
+      <div v-for="star in stars" :key="`u-${star.id}`" class="absolute rounded-full bg-white" :style="{ left: `${star.x}%`, top: `${star.y}%`, width: `${star.size}px`, height: `${star.size}px`, opacity: star.opacity }" />
+      <div class="absolute inset-0 bg-[radial-gradient(circle_at_50%_20%,rgba(255,80,80,0.15),transparent_60%)]" />
+    </div>
+
+    <div class="relative z-10 flex flex-col items-center pt-24 pb-16 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+      <div class="flex flex-col items-center text-center max-w-4xl">
+        <span class="bg-[#ff4d4d]/20 border border-[#ff4d4d]/40 text-[#ff9f9f] text-sm font-bold px-4 py-1.5 rounded-full mb-6">
+          🎓 Lobster University
+        </span>
+        <h1 class="!text-4xl md:!text-6xl !leading-tight !font-black !m-0">
+          🎓 龙虾大学
+        </h1>
+        <div class="flex flex-col sm:flex-row sm:flex-wrap items-center justify-center gap-4 mt-10 mb-14">
+          <a href="https://clawhub.ai/" target="_blank" rel="noreferrer" class="w-full sm:w-auto group flex items-center justify-center gap-2 bg-[#ff4d4d] hover:bg-[#ff6b6b] text-white font-bold rounded-full py-3 px-7 transition-all duration-300 hover:scale-105 active:scale-95">
+            ClawHub 搜技能 <span class="opacity-80 group-hover:opacity-100 transition-opacity">→</span>
+          </a>
+          <a href="https://github.com/VoltAgent/awesome-openclaw-skills" target="_blank" rel="noreferrer" class="w-full sm:w-auto group flex items-center justify-center gap-2 bg-[#0f1623] hover:bg-white/10 border border-[#ff4d4d]/30 text-white font-bold rounded-full py-3 px-7 transition-all duration-300 hover:scale-105 active:scale-95">
+            5494+ 分类清单 <span class="text-[#ff4d4d] group-hover:text-[#ff6b6b] transition-colors">→</span>
+          </a>
+          <a :href="withBase('/cn/adopt/chapter0')" class="w-full sm:w-auto group flex items-center justify-center gap-2 bg-white/5 hover:bg-white/10 border border-white/10 text-white font-bold rounded-full py-3 px-7 transition-all duration-300 hover:scale-105 active:scale-95">
+            领养龙虾 <span class="text-[#ff4d4d] group-hover:text-[#ff6b6b] transition-colors">→</span>
+          </a>
+          <a :href="withBase('/cn/build/')" class="w-full sm:w-auto group flex items-center justify-center gap-2 bg-white/5 hover:bg-white/10 border border-white/10 text-white font-bold rounded-full py-3 px-7 transition-all duration-300 hover:scale-105 active:scale-95">
+            构建龙虾 <span class="text-[#ff4d4d] group-hover:text-[#ff6b6b] transition-colors">→</span>
+          </a>
+          <a :href="withBase('/')" class="w-full sm:w-auto group flex items-center justify-center gap-2 bg-white/5 hover:bg-white/10 border border-white/10 text-white font-bold rounded-full py-3 px-7 transition-all duration-300 hover:scale-105 active:scale-95">
+            返回首页 <span class="text-[#ff4d4d] group-hover:text-[#ff6b6b] transition-colors">→</span>
+          </a>
+        </div>
+        <h2 class="w-full max-w-5xl !text-3xl md:!text-4xl !font-extrabold !leading-tight flex items-center gap-2 mt-2 mb-8">
+          <span class="text-[#ff4d4d]">&gt;</span> 1) 为何龙虾需要 Skills？
+        </h2>
+        <div class="w-full max-w-5xl mb-14 bg-[#0f1623]/80 border border-white/10 rounded-2xl p-6 md:p-8 text-left">
+          <p class="!text-lg md:!text-xl text-gray-200 !m-0 !leading-relaxed">
+            龙虾之所以能“做事情”，不是因为会聊天，而是因为它会调用工具。Skills 本质上是“能力包”：里面定义了什么时候调用什么工具、需要哪些参数、遇到错误怎么处理。模型负责理解你的意图，Skills 负责把意图落地成可执行动作。
+          </p>
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-3 mt-5">
+            <div class="bg-black/20 border border-white/5 rounded-xl p-4">
+              <div class="text-[#ff9f9f] font-bold mb-1">理解意图</div>
+              <div class="text-sm text-gray-300">你说“查邮件、发周报”，模型先拆任务</div>
+            </div>
+            <div class="bg-black/20 border border-white/5 rounded-xl p-4">
+              <div class="text-[#ff9f9f] font-bold mb-1">调用能力</div>
+              <div class="text-sm text-gray-300">Skills 把任务映射到 Gmail、GitHub、浏览器等工具</div>
+            </div>
+            <div class="bg-black/20 border border-white/5 rounded-xl p-4">
+              <div class="text-[#ff9f9f] font-bold mb-1">返回结果</div>
+              <div class="text-sm text-gray-300">执行、校验、重试后把可用结果回传给你</div>
+            </div>
+          </div>
+          <p class="text-gray-300 !mb-0 !mt-4 !leading-relaxed">
+            龙虾不是天生全能，装对 Skills 才会变强。别贪多，装太多会污染上下文。先挑 5~10 个高频技能，跑通你的自动化闭环，再逐步扩容。
+          </p>
+        </div>
+      </div>
+
+      <div class="w-full max-w-5xl mb-14">
+        <h2 class="!text-3xl md:!text-4xl !font-extrabold !leading-tight flex items-center gap-2 mb-8">
+          <span class="text-[#ff4d4d]">&gt;</span> 2) ClawHub 安装、Token 配置与推荐技能
+        </h2>
+        <div class="bg-[#0f1623] border border-white/5 rounded-2xl overflow-hidden shadow-xl">
+          <div class="p-6 grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div class="bg-black/20 border border-white/5 rounded-xl p-4">
+              <div class="text-[#ff9f9f] font-bold mb-2">全局安装</div>
+              <pre class="text-sm text-gray-300 whitespace-pre-wrap break-words m-0">npm i -g clawhub
+clawhub install &lt;skill-slug&gt;</pre>
+            </div>
+            <div class="bg-black/20 border border-white/5 rounded-xl p-4">
+              <div class="text-[#ff9f9f] font-bold mb-2">Token 登录（推荐先做，访问更稳更快）</div>
+              <pre class="text-sm text-gray-300 whitespace-pre-wrap break-words m-0"># 1) 去 clawhub.ai -> Settings -> API tokens 创建 token
+# 2) CLI 登录
+clawhub login --token &lt;你的token&gt;
+# 3) 验证登录
+clawhub whoami</pre>
+            </div>
+            <div class="bg-black/20 border border-white/5 rounded-xl p-4 md:col-span-2">
+              <div class="text-[#ff9f9f] font-bold mb-2">常用搜索与安装</div>
+              <pre class="text-sm text-gray-300 whitespace-pre-wrap break-words m-0">clawhub search github
+clawhub search email
+clawhub search browser
+clawhub install github</pre>
+            </div>
+            <div class="bg-black/20 border border-white/5 rounded-xl p-4 md:col-span-2">
+              <div class="text-[#ff9f9f] font-bold mb-2">网上最常见的新手 10 个推荐技能（可直接装）</div>
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
+                <div v-for="skill in topRecommendedSkills" :key="skill.name" class="bg-[#0f1623] border border-white/5 rounded-lg px-3 py-2">
+                  <div class="text-sm text-gray-100 font-semibold">{{ skill.name }}</div>
+                  <div class="text-xs text-gray-400 mt-1">{{ skill.desc }}</div>
+                  <pre class="text-xs text-[#ffb3b3] whitespace-pre-wrap break-words m-0 mt-2">{{ skill.command }}</pre>
+                </div>
+              </div>
+            </div>
+            <div class="bg-black/20 border border-white/5 rounded-xl p-4 md:col-span-2">
+              <div class="text-[#ff9f9f] font-bold mb-2">快速认知补齐路径</div>
+              <div class="text-sm text-gray-300 leading-relaxed">
+                第一推荐方法：先用 ClawHub 搜和装，再去 awesome-openclaw-skills 按分类找灵感，网上搜索 clawhub 的资料快速补齐认知。
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="w-full max-w-6xl mt-2">
+        <h2 class="!text-3xl md:!text-4xl !font-extrabold !leading-tight flex items-center gap-2 mb-8 mt-2">
+          <span class="text-[#ff4d4d]">&gt;</span> 3) Skills 展示板
+        </h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
+          <div v-for="category in lobsterCategories" :key="category.title" class="bg-[#0f1623] border border-white/5 rounded-2xl p-5 shadow-xl">
+            <div class="flex items-center justify-between mb-4">
+              <h3 class="!m-0 !text-xl !font-extrabold flex items-center gap-2">
+                <span>{{ category.icon }}</span>
+                <span>{{ category.title }}</span>
+              </h3>
+              <span class="text-xs px-2 py-1 rounded-full bg-white/5 text-gray-400">{{ category.count }}</span>
+            </div>
+            <div class="space-y-2">
+              <div v-for="skill in category.skills" :key="skill.name" class="flex items-center justify-between text-sm bg-black/20 border border-white/5 rounded-lg px-3 py-2">
+                <span class="text-gray-100 font-medium">{{ skill.name }}</span>
+                <span class="text-gray-400">{{ skill.note }}</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
   <Layout v-else />
 </template>
 
@@ -287,6 +423,13 @@ const isHome = computed(() => {
   const path = route.path
   return path === '/' || path === '/index.html' || 
          path === '/hello-claw/' || path === '/hello-claw/index.html'
+})
+const isLobsterUniversity = computed(() => {
+  const path = route.path
+  return path === '/cn/adopt/lobster-university' ||
+    path === '/cn/adopt/lobster-university.html' ||
+    path === '/hello-claw/cn/adopt/lobster-university' ||
+    path === '/hello-claw/cn/adopt/lobster-university.html'
 })
 
 const isHovered = ref(false)
@@ -334,6 +477,7 @@ const baseRecommendedSections = [
   { track: '领养龙虾', title: '第 1 章：十分钟上手 OpenClaw', summary: '一键安装、配置模型、常用命令与 Coding Plan 模式。', link: '/cn/adopt/chapter1' },
   { track: '领养龙虾', title: '第 3 章：移动端接入', summary: '把龙虾接到 Telegram / 飞书 / QQ，随时随地发一句话就能办事。', link: '/cn/adopt/chapter3' },
   { track: '领养龙虾', title: '第 4 章：自动化任务入门', summary: '定时提醒、自动化报告、周期性工作流，从“会聊”到“会做”。', link: '/cn/adopt/chapter4' },
+  { track: '领养龙虾', title: '龙虾大学：Skills 选修地图', summary: '菜单式挑选 skills，先装最常用的 5~10 个，让龙虾更强且不过载。', link: '/cn/adopt/lobster-university' },
   { track: '领养龙虾', title: '第 5 章：Skills 技能系统', summary: '理解技能层次、安装市场技能、开发自定义技能并调试。', link: '/cn/adopt/chapter5' },
   { track: '领养龙虾', title: '第 7 章：生产环境部署', summary: 'VPS/Docker/24×7 运行、隔离与常见部署排障要点。', link: '/cn/adopt/chapter7' },
   { track: '构建龙虾', title: '第 1 章：核心定位与设计理念', summary: 'Agent Runtime vs Chatbot，四个原语工具的设计哲学。', link: '/cn/build/chapter1' },
@@ -359,10 +503,126 @@ const tickerItems = computed(() => [...recommendedSections.value, ...recommended
 const quickLinks = [
   { icon: '🦞', text: '领养：写在开头', link: '/cn/adopt/chapter0' },
   { icon: '⚡', text: '领养：快速上手', link: '/cn/adopt/chapter1' },
+  { icon: '🎓', text: '领养：龙虾大学', link: '/cn/adopt/lobster-university' },
   { icon: '📱', text: '领养：移动端接入', link: '/cn/adopt/chapter3' },
   { icon: '🛠️', text: '构建：写在开头', link: '/cn/build/' },
   { icon: '📚', text: '附录：命令速查表', link: '/cn/appendix/appendix-a' },
   { icon: '🐙', text: 'GitHub', link: 'https://github.com/datawhalechina/hello-claw', external: true },
+]
+
+const topRecommendedSkills = [
+  { name: 'skill-vetter', desc: '安装前先做技能安全体检，降低恶意技能风险', command: 'clawhub install skill-vetter' },
+  { name: 'tavily-search', desc: '联网搜索信息，适合查最新资料与事实核验', command: 'clawhub install tavily-search' },
+  { name: 'agent-browser', desc: '让龙虾可执行网页操作、抓取信息、走页面流程', command: 'clawhub install agent-browser' },
+  { name: 'summarize', desc: '对网页、文档、音视频链接快速生成摘要', command: 'clawhub install summarize' },
+  { name: 'gog', desc: '打通 Gmail/Calendar/Drive/Docs 的高频办公流程', command: 'clawhub install gog' },
+  { name: 'github', desc: '仓库、Issue、PR、代码搜索等开发协作能力', command: 'clawhub install github' },
+  { name: 'obsidian', desc: '连接本地知识库，做笔记整理与知识回顾', command: 'clawhub install obsidian' },
+  { name: 'self-improving-agent', desc: '记录成功失败经验，持续优化任务执行策略', command: 'clawhub install self-improving-agent' },
+  { name: 'proactive-agent', desc: '提升主动性，按历史行为和上下文自动推进任务', command: 'clawhub install proactive-agent' },
+  { name: 'capability-evolver', desc: '识别能力短板并辅助演化技能组合', command: 'clawhub install capability-evolver' },
+]
+
+const lobsterCategories = [
+  {
+    icon: '🧠',
+    title: 'Coding Agents & IDEs',
+    count: 1222,
+    skills: [
+      { name: 'github', note: 'PR / Issue' },
+      { name: 'code-reviewer', note: 'Diff 审查' },
+      { name: 'git-ops', note: 'Git 操作' },
+      { name: 'sql-toolkit', note: 'SQL 查询' },
+    ],
+  },
+  {
+    icon: '🌐',
+    title: 'Browser & Automation',
+    count: 335,
+    skills: [
+      { name: 'agent-browser', note: '网页自动化' },
+      { name: 'playwright', note: '测试/爬取' },
+      { name: 'summarize', note: '网页摘要' },
+      { name: 'actionbook', note: '表单流程' },
+    ],
+  },
+  {
+    icon: '☁️',
+    title: 'DevOps & Cloud',
+    count: 409,
+    skills: [
+      { name: 'devops', note: '运维工具箱' },
+      { name: 'aws-infra', note: 'AWS 资源' },
+      { name: 'azure-devops', note: '流水线' },
+      { name: 'agentic-devops', note: '生产巡检' },
+    ],
+  },
+  {
+    icon: '🔍',
+    title: 'Search & Research',
+    count: 350,
+    skills: [
+      { name: 'tavily-search', note: '联网搜索' },
+      { name: 'hackernews', note: '技术资讯' },
+      { name: 'academic-research', note: '论文检索' },
+      { name: 'summarize', note: '调研摘要' },
+    ],
+  },
+  {
+    icon: '🧾',
+    title: 'Productivity & Tasks',
+    count: 206,
+    skills: [
+      { name: 'todoist', note: '任务管理' },
+      { name: 'notion', note: '知识库' },
+      { name: 'obsidian', note: '本地笔记' },
+      { name: 'slack', note: '协同沟通' },
+    ],
+  },
+  {
+    icon: '🤖',
+    title: 'AI & LLMs',
+    count: 197,
+    skills: [
+      { name: 'gog', note: 'Google 套件' },
+      { name: 'self-improving-agent', note: '自我优化' },
+      { name: 'proactive-agent', note: '主动执行' },
+      { name: 'capability-evolver', note: '能力进化' },
+    ],
+  },
+  {
+    icon: '💬',
+    title: 'Communication',
+    count: 149,
+    skills: [
+      { name: 'agentmail', note: '邮件代理' },
+      { name: 'slack', note: '工作消息' },
+      { name: 'gog', note: 'Gmail/Calendar' },
+      { name: 'linkedin', note: '社媒沟通' },
+    ],
+  },
+  {
+    icon: '📄',
+    title: 'PDF & Documents',
+    count: 111,
+    skills: [
+      { name: 'add-watermark-to-pdf', note: 'PDF 处理' },
+      { name: 'summarize', note: '文档摘要' },
+      { name: 'agentmail', note: '附件流转' },
+      { name: 'blogburst', note: '文档拆分' },
+    ],
+  },
+  {
+    icon: '🛡️',
+    title: 'Security & Passwords',
+    count: 53,
+    skills: [
+      { name: 'skill-vetter', note: '技能体检' },
+      { name: '1password', note: '凭证管理' },
+      { name: 'agentguard', note: '风险拦截' },
+      { name: 'agent-audit', note: '安全审计' },
+    ],
+  },
 ]
 
 const copyCommand = () => {
