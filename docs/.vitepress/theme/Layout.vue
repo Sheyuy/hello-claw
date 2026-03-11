@@ -304,7 +304,10 @@
         </h1>
         <div class="flex flex-col sm:flex-row sm:flex-wrap items-center justify-center gap-4 mt-10 mb-14">
           <a href="https://clawhub.ai/" target="_blank" rel="noreferrer" class="w-full sm:w-auto group flex items-center justify-center gap-2 bg-[#ff4d4d] hover:bg-[#ff6b6b] text-white font-bold rounded-full py-3 px-7 transition-all duration-300 hover:scale-105 active:scale-95">
-            ClawHub 搜技能 <span class="opacity-80 group-hover:opacity-100 transition-opacity">→</span>
+            ClawHub 原版入口 <span class="opacity-80 group-hover:opacity-100 transition-opacity">→</span>
+          </a>
+          <a href="https://skillhub.tencent.com/#categories" target="_blank" rel="noreferrer" class="w-full sm:w-auto group flex items-center justify-center gap-2 bg-[#0f1623] hover:bg-white/10 border border-[#ff4d4d]/30 text-white font-bold rounded-full py-3 px-7 transition-all duration-300 hover:scale-105 active:scale-95">
+            中文 ClawHub（腾讯 SkillHub） <span class="text-[#ff4d4d] group-hover:text-[#ff6b6b] transition-colors">→</span>
           </a>
           <a href="https://github.com/VoltAgent/awesome-openclaw-skills" target="_blank" rel="noreferrer" class="w-full sm:w-auto group flex items-center justify-center gap-2 bg-[#0f1623] hover:bg-white/10 border border-[#ff4d4d]/30 text-white font-bold rounded-full py-3 px-7 transition-all duration-300 hover:scale-105 active:scale-95">
             5494+ 分类清单 <span class="text-[#ff4d4d] group-hover:text-[#ff6b6b] transition-colors">→</span>
@@ -359,7 +362,7 @@ clawhub install &lt;skill-slug&gt;</pre>
             </div>
             <div class="bg-black/20 border border-white/5 rounded-xl p-4">
               <div class="text-[#ff9f9f] font-bold mb-2">Token 登录（推荐先做，访问更稳更快）</div>
-              <pre class="text-sm text-gray-300 whitespace-pre-wrap break-words m-0"># 1) 去 clawhub.ai -> Settings -> API tokens 创建 token
+              <pre class="text-sm text-gray-300 whitespace-pre-wrap break-words m-0"># 1) 去 clawhub.ai 或 skillhub.tencent.com/#categories -> Settings -> API tokens 创建 token
 # 2) CLI 登录
 clawhub login --token &lt;你的token&gt;
 # 3) 验证登录
