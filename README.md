@@ -101,19 +101,19 @@ https://datawhalechina.github.io/hello-claw
 | 章节 | 简介 | 状态 |
 | ---- | ---- | ---- |
 | **写在开头** | **为什么要从零构建你的 Claw、OpenClaw 复杂度困境与学习路线图** | ✅ |
-| **🔵 第一层：OpenClaw 内部拆解**（第 1～6 章） | | |
+| **🔵 第一层：OpenClaw 内部拆解** | | |
 | 第 1 章 核心定位与设计理念 | Agent Runtime vs Chatbot 本质区别、自托管设计、核心基础工具哲学 | ✅ |
 | 第 2 章 整体架构解析 | Gateway、Command Queue、Agent Loop、LLM 集成与错误处理 | ✅ |
 | 第 3 章 提示词系统 | 八份档案（SOUL/USER/AGENTS/TOOLS/IDENTITY/MEMORY/HEARTBEAT/BOOTSTRAP）与热更新机制 | ✅ |
 | 第 4 章 工具系统 | read/write/edit/exec 核心工具设计、安全架构、Agent Loop 工具调用 | ✅ |
 | 第 5 章 消息循环与事件驱动 | 思考-行动循环、任务队列、并发控制、容错自愈、心跳机制 | ✅ |
 | 第 6 章 多渠道接入 | Gateway 架构、标准消息格式、平台能力配置、跨渠道身份识别 | ✅ |
-| **🟢 第二层：探索替代方案**（第 7～10 章） | | |
+| **🟢 第二层：探索替代方案** | | |
 | 第 7 章 轻量化方案 | NanoClaw（~7000 行）、Nanobot（~4000 行）、ZeroClaw（<5MB 内存） | ✅ |
 | 第 8 章 安全加固方案 | IronClaw 纵深防御架构、WASM 沙箱、密钥零暴露模型、提示词注入防御 | ✅ |
 | 第 9 章 硬件方案 | PicoClaw（$10 硬件/<10MB 内存）、ARM 架构选型、功耗优化、离线能力 | ✅ |
 | 第 10 章 站在山巅回望 | 从驾驶员到工程师的认知转变、OpenClaw 局限性与未来趋势 | ✅ |
-| **🟡 第三层：定制你的 Claw**（第 11～15 章） | | |
+| **🟡 第三层：定制你的 Claw** | | |
 | 第 11 章 定制路径概览 | 四级定制难度（配置/Skill/Fork/从零）、适用场景与选型建议 | 🚧 |
 | 第 12 章 配置文件级定制 | openclaw.json 结构、Providers 配置、工具白名单、安全配置 | 🚧 |
 | 第 13 章 Skill 编写 | Skill 文件结构、Frontmatter 格式、异步处理与调试测试 | 🚧 |
