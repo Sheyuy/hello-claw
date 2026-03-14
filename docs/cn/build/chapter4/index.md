@@ -326,5 +326,4 @@ exec      read        edit        edit         exec       read
 
 ---
 
-→ [第五章 消息循环](/cn/build/temp/chapter5/)
-
+→ [第五章 消息循环](/cn/build/chapter5/)

@@ -327,4 +327,4 @@ Gateway 最深刻的架构贡献，不在于它连接了什么，而在于它隐
 
 ---
 
-→ [第七章 安全沙箱](/cn/build/temp/chapter7/)
+→ [第七章 安全沙箱](/cn/build/chapter7/)

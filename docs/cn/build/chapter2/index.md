@@ -327,4 +327,4 @@ ReAct循环的设计，在某种程度上也是对语言模型局限性的诚实
 
 ---
 
-→ [第三章 提示词系统](/cn/build/temp/chapter3/)
+→ [第三章 提示词系统](/cn/build/chapter3/)
