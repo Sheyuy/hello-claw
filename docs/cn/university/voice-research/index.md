@@ -183,9 +183,9 @@ gog --version
 2. 创建或选择一个项目
 3. 在 **APIs & Services → Library** 中搜索并启用：Gmail API、Google Calendar API、Google Drive API、Google Sheets API、Google Docs API、Google Slides API
 
-![Google Cloud 项目创建](/google-cloud-project.png)
+<!-- ![Google Cloud 项目创建](/google-cloud-project.png) -->
 
-![在 API Library 搜索栏中搜索需要的 API](/google-library-search.png)
+<!-- ![在 API Library 搜索栏中搜索需要的 API](/google-library-search.png) -->
 
 **第二步：配置 OAuth 同意屏幕**
 
@@ -249,10 +249,10 @@ gog auth credentials ~/.config/gog/client_secret_xxx.json
 ```bash
 gog auth add your-email@gmail.com --services gmail,calendar,drive,contacts,sheets,docs,slides
 ```
-
+<!-- 
 ![Google OAuth 授权页面](/google-oauth.png)
 
-![gog 授权成功状态](/gog-connection-status.png)
+![gog 授权成功状态](/gog-connection-status.png) -->
 
 
 验证：
