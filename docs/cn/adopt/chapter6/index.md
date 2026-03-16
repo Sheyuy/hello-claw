@@ -122,12 +122,12 @@ ssh -N -L 18789:127.0.0.1:18789 user@host
 | `BOOT.md` | 启动清单（可选，Gateway 重启时执行） | Gateway 启动时 |
 | `BOOTSTRAP.md` | 首次引导仪式（完成后删除） | 仅首次运行 |
 | `MEMORY.md` | 长期记忆（可选） | 仅主会话 |
-| `memory/YYYY-MM-DD.md` | 每日记忆日志 | 按需读取 |
+| `memory/YYYY-MM-DD.md` | 每日记忆日志 | 今天+昨天：会话开始；其余按需读取 |
 | `skills/` | 工作区级技能（可选） | 按需加载 |
 
 > **重要**：这些文件在每次对话时都会注入到 AI 模型的上下文窗口中，**会消耗 Token**。保持文件简洁，尤其是 `MEMORY.md`——它会随时间增长，导致上下文使用量增大和更频繁的压缩。
 
-> `memory/YYYY-MM-DD.md` 每日文件**不会**自动注入，而是通过 `memory_search` 和 `memory_get` 工具按需访问，不占用上下文窗口。
+> `memory/YYYY-MM-DD.md` 中**今天和昨天**的文件会在会话开始时自动读取，其余日期的文件通过 `memory_search` 和 `memory_get` 工具按需访问，不占用上下文窗口。
 
 <details>
 <summary>工作区文件注入规则</summary>

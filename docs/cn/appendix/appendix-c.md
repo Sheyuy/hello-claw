@@ -111,7 +111,7 @@ OpenClaw 的爆发催生了一个庞大的"龙虾生态"——从开源框架到
 | **ClawX** | ValueCell AI | ✅ MIT | macOS / Windows / Linux | ❌ 需自备 | 通过 ClawHub | ❌ | 需手动配置 | 需配置 | — | — | — | — | ★★☆☆☆ | [GitHub](https://github.com/ValueCell-ai/ClawX) / [官网](https://clawx.com.cn) |
 | **OneClaw** | OneClaw 社区 | ✅ 开源 | macOS / Windows / Linux | ❌ 需自备 | 通过 ClawHub | ❌ | 需手动配置 | 需配置 | — | — | — | — | ★★☆☆☆ | [GitHub](https://oneclaw.cn) |
 | **LobsterAI（有道龙虾）** | 网易有道 | ✅ MIT | macOS / Windows / Linux | ❌ 需自备 | 16 内置 + 技能商店 5,000+ | ❌ | ✅ 钉钉/飞书 | ✅ 企微/QQ (v0.2.2+) | ✅ Alpine VM | ✅ | ✅ 钉钉/飞书/企微/QQ | — | ★☆☆☆☆ | [官网](https://lobsterai.youdao.com) / [GitHub](https://github.com/netease-youdao/LobsterAI) |
-| **EasyClaw（猎豹）** | 猎豹移动 | ❌ 闭源 | macOS / Windows | ❌ 需自备 | 傅盛官方技能包（营销/小红书优化） | ❌ | ✅ 支持 | 需配置 | — | — | ✅ WhatsApp/Telegram/飞书 | ✅ 企业出海专版 | ★☆☆☆☆ | [国内版](https://easyclaw.cn) / [国际版](https://easyclaw.com) |
+| **EasyClaw（猎豹）** | 猎豹移动 | ❌ 闭源 | macOS / Windows / iOS / Android | ❌ 需自备 | 傅盛"三万"同款技能包（办公/营销/小红书） | ❌ | ✅ 飞书/钉钉 | ✅ 企微/QQ | — | — | ✅ 飞书/企微/钉钉/WhatsApp/Telegram | ✅ 企业出海专版 | ★☆☆☆☆ | [国内版](https://easyclaw.cn) / [国际版](https://easyclaw.com) |
 
 **怎么选？**
 
@@ -119,7 +119,7 @@ OpenClaw 的爆发催生了一个庞大的"龙虾生态"——从开源框架到
 - **ClawX**：最适合想要 GUI 但不想绑定任何生态的用户。开源 + 三平台 + 提供商自选。内置 OpenClaw 运行时，无需另装 Node.js。
 - **OneClaw**：与 ClawX 定位相似的开源桌面客户端，同样支持三平台 + 提供商自选。适合偏好轻量开源 GUI 的用户。
 - **LobsterAI**：网易有道出品，国内首个 MIT 全开源桌面 Agent。16 项内置技能 + 技能商店 5,000+ + MCP 服务市场 15+，IM 覆盖最广（钉钉/飞书/企微/QQ/Telegram/Discord），Alpine VM 沙盒隔离，数据 100% 本地，无广告。适合想要**开源 + 安全 + 广泛 IM 支持**的用户。
-- **EasyClaw**：猎豹移动出品，双击安装零配置。技能包针对营销/小红书场景优化，独家支持通过 WhatsApp/Telegram/飞书远程控制电脑。国内版 + 国际版 + Cloud 三端覆盖，适合**营销运营和跨境出海**。
+- **EasyClaw**：猎豹移动出品，傅盛"三万"同款技能包，双击安装零配置。有移动端 App（iOS/Android），可直连飞书、企微、钉钉、QQ 等常用办公应用，适合**公司办公、营销运营和跨境出海**。
 
 > 本教程第一章详细介绍了 [AutoClaw 安装流程](/cn/adopt/chapter1/)。ClawX、OneClaw 和 LobsterAI 的安装也在第一章备选方案中提及。
 
@@ -411,6 +411,9 @@ psql -d ironclaw -c 'CREATE EXTENSION IF NOT EXISTS vector;'
 | **GenericAgent** | Python | 复旦 A3 实验室极简自主 Agent，自组织/自学习/自进化，可自动安装/卸载 OpenClaw 等复杂系统 | [lsdefine/pc-agent-loop](https://github.com/lsdefine/pc-agent-loop) |
 | **ClawRouter** | TypeScript | Agent 原生 LLM 智能路由，41+ 模型本地零延迟自动选路，ECO/AUTO/PREMIUM 三档省 92% 成本 | [BlockRunAI/ClawRouter](https://github.com/BlockRunAI/ClawRouter) |
 | **nanobot** | Python | 港科大 HKUDS 出品，代码量仅 OpenClaw 1%，研究友好，pip 一键安装，支持 10+ IM 渠道 | [HKUDS/nanobot](https://github.com/HKUDS/nanobot) |
+| **ClawWork** | Python | 港科大 HKUDS 出品，AI Coworker 经济基准测试：220 GDPVal 任务、44 职业、$10 起步生存挑战，基于 nanobot | [HKUDS/ClawWork](https://github.com/HKUDS/ClawWork) |
+| **MetaClaw** | Python | 在线 RL 进化层，Agent 从交互中自学习、自进化，无需 GPU，一键注入 OpenClaw | [aiming-lab/MetaClaw](https://github.com/aiming-lab/MetaClaw) |
+| **MiniClaw** | TypeScript | 极简 OpenClaw 替代，直接用 Claude Pro/ChatGPT Plus 订阅跑 Telegram，零 API 成本 | [htlin222/mini-claw](https://github.com/htlin222/mini-claw) |
 
 
 <details>
@@ -425,6 +428,9 @@ psql -d ironclaw -c 'CREATE EXTENSION IF NOT EXISTS vector;'
 - **ClawRouter**：Agent 原生 LLM 智能路由器，本地 <1ms 自动选路，41+ 模型，三档路由策略（ECO/AUTO/PREMIUM）可省 92% 成本。适合**自建部署中优化多模型成本**。
 - **GenericAgent**：复旦 A3 实验室极简自主 Agent，自组织/自学习/自进化，不依赖预定义工具链，能自主完成 OpenClaw 安装与卸载。提供[一键安装版](https://github.com/lsdefine/pc-agent-loop/release)。适合**通用自主 Agent 研究**。
 - **nanobot**：港科大 HKUDS 出品（[GitHub](https://github.com/HKUDS/nanobot)），代码量仅 OpenClaw 的 1%，`pip install nanobot-ai` 一键安装（Python ≥ 3.11）。支持 Telegram/Discord/WhatsApp/飞书/QQ/钉钉/企微等 10+ IM 渠道，内置 Web 搜索、定时任务和记忆管理。适合**学术研究和快速原型验证**。
+- **ClawWork**：同为港科大 HKUDS 出品（[GitHub](https://github.com/HKUDS/ClawWork)），基于 nanobot 的 AI Coworker 经济基准测试。220 个 GDPVal 真实职业任务（44 个行业），Agent 以 $10 启动资金生存，自付 Token 成本、靠完成任务赚取收入。含 React 实时面板。适合**评估 Agent 经济可行性和生产力研究**。
+- **MetaClaw**：在线 RL 进化层（[GitHub](https://github.com/aiming-lab/MetaClaw)），`metaclaw setup` + `metaclaw start` 一键注入 OpenClaw。Agent 从交互中检索最相关技能指令并自动注入系统提示词，无需 GPU、无需离线数据集。适合**让 Agent 持续自我进化**。
+- **MiniClaw**：极简 OpenClaw 替代（[GitHub](https://github.com/htlin222/mini-claw)），直接复用 Claude Pro/ChatGPT Plus 订阅在 Telegram 中运行，零 API 成本。适合**已有订阅、只需 Telegram 单渠道**的用户。
 
 
 </details>
@@ -442,6 +448,9 @@ psql -d ironclaw -c 'CREATE EXTENSION IF NOT EXISTS vector;'
 | **GenericAgent** | Python | ★☆☆☆☆ | 低 | ★★★☆☆ | ★☆☆☆☆ | 无 | ★☆☆☆☆ | 通用自主Agent |
 | **ClawRouter** | TypeScript | ★★☆☆☆ | 低 | ★★★★☆ | — | 无 | — | 多模型路由/降本 |
 | **nanobot** | Python | ★☆☆☆☆ | 低 | ★★★☆☆ | ★★☆☆☆ | 无 | ★★★★☆ | 学术研究/快速原型 |
+| **ClawWork** | Python | ★★☆☆☆ | 中 | ★★★☆☆ | — | 无 | ★★★★☆ | Agent 经济基准测试 |
+| **MetaClaw** | Python | ★☆☆☆☆ | 低 | ★★★☆☆ | ★★★☆☆ | 无 | — | Agent 自进化/RL |
+| **MiniClaw** | TypeScript | ★☆☆☆☆ | 低 | ★★★☆☆ | ★☆☆☆☆ | 无 | ★☆☆☆☆ | 订阅复用/极简 |
 
 ---
 
