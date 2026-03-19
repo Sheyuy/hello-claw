@@ -95,6 +95,8 @@ clawhub install gog
   [第七章 工具与定时任务](/cn/adopt/chapter7/)
 - 技能开发与发布流程：
   [附录 D 技能开发与发布指南](/cn/appendix/appendix-d)
+- Skill 开发实战（本地健康管理）：
+  [Skill 开发实战：本地健康管理助手](/cn/university/local-health-assistant/)
 
 **一句话毕业要求**：让龙虾“好用”的关键，不是装最多，而是装最合适。  
 从这份菜单里先挑 5 个，跑通你自己的第一个自动化闭环，再继续加课。

@@ -134,7 +134,7 @@ https://datawhalechina.github.io/hello-claw
 | [邮箱助手实战（163）](./docs/cn/university/email-assistant/index.md)                       | 从 IMAP/SMTP 配置到脚本验证与 cron 定时，跑通邮件自动化      | ✅   |
 | [多智能体协作（Multi OpenClaw / HiClaw）](./docs/cn/university/multi-claw-hiclaw/index.md) | 从单 Worker 瓶颈到多智能体协作，落地可追踪的任务编排         | ✅   |
 | [安全防护清单](./docs/cn/university/security/index.md)                                     | 技能与工具的安全边界、审计与防注入要点                       | ✅   |
-
+| [Skill 开发实战：本地健康管理助手](./docs/cn/university/local-health-assistant/index.md)   | 基于 MediWise 搭建本地优先的家庭健康管理闭环                 | ✅   |
 ---
 
 > 🎉 **欢迎大家来贡献案例！**

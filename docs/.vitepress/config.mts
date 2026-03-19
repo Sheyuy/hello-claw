@@ -203,6 +203,7 @@ export default defineConfig({
                 { text: '安全防护清单', link: '/cn/university/security/' },
                 { text: 'Vibe Coding 实战', link: '/cn/university/vibe-coding/' },
                 { text: 'Agent 论文推送助手', link: '/cn/university/paper-assistant/' },
+                { text: '本地健康管理助手', link: '/cn/university/local-health-assistant/' },
               ]
             }
           ]
