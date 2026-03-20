@@ -15,7 +15,7 @@ export default defineConfig({
     math: true
   },
   locales: {
-    root: {
+    cn: {
       label: '简体中文',
       lang: 'zh-CN',
       title: "Hello Claw",
@@ -227,8 +227,12 @@ export default defineConfig({
       description: "Learn OpenClaw from scratch: Adopt your AI lobster assistant or build your own agent",
       themeConfig: {
         logo: '🦞',
+        outline: {
+          level: [2, 3],
+        },
         nav: [
           { text: 'Adopt', link: '/en/adopt/intro' },
+          { text: 'Lobster University', link: '/en/university/intro', activeMatch: '^/en/university/' },
           { text: 'Build', link: '/en/build/' },
           { text: 'GitHub', link: 'https://github.com/datawhalechina/hello-claw' },
         ],
@@ -237,19 +241,109 @@ export default defineConfig({
             {
               text: 'Adopt Claw (User Guide)',
               items: [
-                { text: 'Chapter 0: Introduction', link: '/en/adopt/intro' },
-                { text: 'Chapter 1: Quick Start', link: '/en/adopt/chapter1' },
-                { text: 'Chapter 2: Understanding OpenClaw', link: '/en/adopt/chapter2' },
-                { text: 'Chapter 3: Mobile Access', link: '/en/adopt/chapter3' },
-                { text: 'Chapter 4: Automation Basics', link: '/en/adopt/chapter4' },
-                { text: 'Chapter 5: Skills System', link: '/en/adopt/chapter5' },
-                { text: 'Chapter 6: External Services', link: '/en/adopt/chapter6' },
-                { text: 'Chapter 7: Production Deployment', link: '/en/adopt/chapter7' },
-                { text: 'Chapter 8: Multi-Model & Cost', link: '/en/adopt/chapter8' },
-                { text: 'Chapter 9: Personal Assistant', link: '/en/adopt/chapter9' },
-                { text: 'Chapter 10: Content Creation', link: '/en/adopt/chapter10' },
-                { text: 'Chapter 11: Developer Productivity', link: '/en/adopt/chapter11' },
-                { text: 'Chapter 12: Troubleshooting', link: '/en/adopt/chapter12' }
+                { text: 'Introduction', link: '/en/adopt/intro' },
+                {
+                  text: '📦 Installation',
+                  collapsed: false,
+                  items: [
+                    { text: 'Chapter 1: AutoClaw Quick Install', link: '/en/adopt/chapter1' },
+                    { text: 'Chapter 2: OpenClaw Manual Install', link: '/en/adopt/chapter2' },
+                    { text: 'Chapter 3: Initial Configuration', link: '/en/adopt/chapter3' },
+                  ]
+                },
+                {
+                  text: '⚙️ Core Configuration',
+                  collapsed: false,
+                  items: [
+                    { text: 'Chapter 4: Chat Platform Integration', link: '/en/adopt/chapter4' },
+                    { text: 'Chapter 5: Model Management', link: '/en/adopt/chapter5' },
+                    { text: 'Chapter 6: Agent Management', link: '/en/adopt/chapter6' },
+                  ]
+                },
+                {
+                  text: '🔌 Operations & Extensions',
+                  collapsed: false,
+                  items: [
+                    { text: 'Chapter 7: Tools & Scheduled Tasks', link: '/en/adopt/chapter7' },
+                    { text: 'Chapter 8: Gateway Operations', link: '/en/adopt/chapter8' },
+                    { text: 'Chapter 9: Remote Access & Networking', link: '/en/adopt/chapter9' },
+                  ]
+                },
+                {
+                  text: '🛡️ Security & Clients',
+                  collapsed: false,
+                  items: [
+                    { text: 'Chapter 10: Security & Threat Models', link: '/en/adopt/chapter10' },
+                    { text: 'Chapter 11: Web UI & Clients', link: '/en/adopt/chapter11' },
+                  ]
+                },
+              ]
+            },
+            {
+              text: 'Appendix',
+              items: [
+                { text: 'Appendix A: Learning Resources', link: '/en/appendix/appendix-a' },
+                { text: 'Appendix B: Community Voice & Ecosystem', link: '/en/appendix/appendix-b' },
+                { text: 'Appendix C: Claw Alternatives Comparison', link: '/en/appendix/appendix-c' },
+                { text: 'Appendix D: Skill Development Guide', link: '/en/appendix/appendix-d' },
+                { text: 'Appendix E: Model Provider Guide', link: '/en/appendix/appendix-e' },
+                { text: 'Appendix F: Command Cheat Sheet', link: '/en/appendix/appendix-f' },
+                { text: 'Appendix G: Config File Reference', link: '/en/appendix/appendix-g' }
+              ]
+            }
+          ],
+          '/en/appendix/': [
+            {
+              text: 'Adopt Claw (User Guide)',
+              items: [
+                { text: 'Introduction', link: '/en/adopt/intro' },
+                {
+                  text: '📦 Installation',
+                  collapsed: false,
+                  items: [
+                    { text: 'Chapter 1: AutoClaw Quick Install', link: '/en/adopt/chapter1' },
+                    { text: 'Chapter 2: OpenClaw Manual Install', link: '/en/adopt/chapter2' },
+                    { text: 'Chapter 3: Initial Configuration', link: '/en/adopt/chapter3' },
+                  ]
+                },
+                {
+                  text: '⚙️ Core Configuration',
+                  collapsed: false,
+                  items: [
+                    { text: 'Chapter 4: Chat Platform Integration', link: '/en/adopt/chapter4' },
+                    { text: 'Chapter 5: Model Management', link: '/en/adopt/chapter5' },
+                    { text: 'Chapter 6: Agent Management', link: '/en/adopt/chapter6' },
+                  ]
+                },
+                {
+                  text: '🔌 Operations & Extensions',
+                  collapsed: false,
+                  items: [
+                    { text: 'Chapter 7: Tools & Scheduled Tasks', link: '/en/adopt/chapter7' },
+                    { text: 'Chapter 8: Gateway Operations', link: '/en/adopt/chapter8' },
+                    { text: 'Chapter 9: Remote Access & Networking', link: '/en/adopt/chapter9' },
+                  ]
+                },
+                {
+                  text: '🛡️ Security & Clients',
+                  collapsed: false,
+                  items: [
+                    { text: 'Chapter 10: Security & Threat Models', link: '/en/adopt/chapter10' },
+                    { text: 'Chapter 11: Web UI & Clients', link: '/en/adopt/chapter11' },
+                  ]
+                },
+              ]
+            },
+            {
+              text: 'Appendix',
+              items: [
+                { text: 'Appendix A: Learning Resources', link: '/en/appendix/appendix-a' },
+                { text: 'Appendix B: Community Voice & Ecosystem', link: '/en/appendix/appendix-b' },
+                { text: 'Appendix C: Claw Alternatives Comparison', link: '/en/appendix/appendix-c' },
+                { text: 'Appendix D: Skill Development Guide', link: '/en/appendix/appendix-d' },
+                { text: 'Appendix E: Model Provider Guide', link: '/en/appendix/appendix-e' },
+                { text: 'Appendix F: Command Cheat Sheet', link: '/en/appendix/appendix-f' },
+                { text: 'Appendix G: Config File Reference', link: '/en/appendix/appendix-g' }
               ]
             }
           ],
@@ -258,16 +352,43 @@ export default defineConfig({
               text: 'Build Claw (Developer Guide)',
               items: [
                 { text: 'Introduction', link: '/en/build/' },
-                { text: 'Chapter 1: Architecture Philosophy', link: '/en/build/chapter1' },
-                { text: 'Chapter 2: ReAct Loop', link: '/en/build/chapter2' },
-                { text: 'Chapter 3: Prompt System', link: '/en/build/chapter3' },
-                { text: 'Chapter 4: Tool System', link: '/en/build/chapter4' },
-                { text: 'Chapter 5: Message Loop & Events', link: '/en/build/chapter5' },
-                { text: 'Chapter 6: Unified Gateway', link: '/en/build/chapter6' },
-                { text: 'Chapter 7: Security Sandbox', link: '/en/build/chapter7' },
-                { text: 'Chapter 8: Lightweight Solutions', link: '/en/build/chapter8' },
-                { text: 'Chapter 9: Security Hardening', link: '/en/build/chapter9' },
-                { text: 'Chapter 10: Hardware Solutions', link: '/en/build/chapter10' },
+                {
+                  text: '🏗️ OpenClaw Internals',
+                  collapsed: false,
+                  items: [
+                    { text: 'Chapter 1: Architecture Philosophy', link: '/en/build/chapter1' },
+                    { text: 'Chapter 2: ReAct Loop', link: '/en/build/chapter2' },
+                    { text: 'Chapter 3: Prompt System', link: '/en/build/chapter3' },
+                    { text: 'Chapter 4: Tool System', link: '/en/build/chapter4' },
+                    { text: 'Chapter 5: Message Loop & Events', link: '/en/build/chapter5' },
+                    { text: 'Chapter 6: Unified Gateway', link: '/en/build/chapter6' },
+                    { text: 'Chapter 7: Security Sandbox', link: '/en/build/chapter7' },
+                  ]
+                },
+                {
+                  text: '🔧 Custom Solutions',
+                  collapsed: false,
+                  items: [
+                    { text: 'Chapter 8: Lightweight Solutions', link: '/en/build/chapter8' },
+                    { text: 'Chapter 9: Security Hardening', link: '/en/build/chapter9' },
+                    { text: 'Chapter 10: Hardware Solutions', link: '/en/build/chapter10' },
+                  ]
+                },
+              ]
+            }
+          ],
+          '/en/university/': [
+            {
+              text: 'Lobster University',
+              items: [
+                { text: 'Introduction', link: '/en/university/intro' },
+                { text: 'Skills Elective Guide', link: '/en/university/' },
+                { text: 'Email Assistant (163)', link: '/en/university/email-assistant/' },
+                { text: 'Multi-Agent Collaboration (HiClaw)', link: '/en/university/multi-claw-hiclaw/' },
+                { text: 'Security Checklist', link: '/en/university/security/' },
+                { text: 'Vibe Coding Hands-On', link: '/en/university/vibe-coding/' },
+                { text: 'Paper Push Assistant', link: '/en/university/paper-assistant/' },
+                { text: 'Local Health Assistant', link: '/en/university/local-health-assistant/' },
               ]
             }
           ]
@@ -277,6 +398,10 @@ export default defineConfig({
         ],
         editLink: {
           pattern: 'https://github.com/datawhalechina/hello-claw/blob/main/docs/:path'
+        },
+        footer: {
+          message: 'Licensed under <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a>',
+          copyright: 'Copyright © 2024-present Hello Claw Contributors'
         }
       }
     }

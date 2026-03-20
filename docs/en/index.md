@@ -8,25 +8,102 @@ hero:
   actions:
     - theme: brand
       text: Get Started
-      link: /en/adopt/
+      link: /en/adopt/intro
+    - theme: alt
+      text: 🎓 Lobster University
+      link: /en/university/
     - theme: alt
       text: Deep Dive
       link: /en/build/
+    - theme: alt
+      text: GitHub
+      link: https://github.com/datawhalechina/hello-claw
 
 features:
   - title: 🦞 Adopt Claw (User Guide)
-    details: Quick start with OpenClaw, learn to configure, use and extend this AI assistant
+    details: 11 chapters + 7 appendices, covering Installation → Core Configuration → Operations & Extensions → Security & Clients, read as needed
   - title: 🛠️ Build Claw (Developer Guide)
-    details: Build a simplified AI Agent from scratch and understand how it works
-  - title: 📱 Mobile Access
-    details: Control via Telegram and Feishu anytime, anywhere
-  - title: ⚡ Automation
-    details: Create scheduled reminders, automated reports and periodic workflows
-  - title: 🔧 Skills System
-    details: Understand skills, install marketplace skills and develop custom skills
-  - title: 🤖 Multi-Model Support
-    details: Configure multiple LLM models, local Ollama deployment and API cost control
+    details: 15 chapters across 3 tiers, from dissecting OpenClaw source code to analyzing alternatives to customizing your own Claw
+  - title: 📱 QQ / Feishu / Telegram Integration
+    details: Three parallel platform routes + selection matrix, control your lobster remotely anytime, anywhere
+  - title: ⚡ Scheduled Tasks & Automation
+    details: Three scheduling methods (cron / at / every) for timed reminders, automated reports, and periodic workflows
+  - title: 🎓 Lobster University
+    details: Menu-style skill selection, start with the 5-10 most useful skills to supercharge your lobster without polluting context
+  - title: 🤖 Multi-Model & Cost Optimization
+    details: Multi-provider configuration, model routing strategies, Ollama local deployment, cost monitoring
 ---
+
+## Project Overview
+
+This project is a comprehensive learning tutorial for OpenClaw, helping you master this powerful command-line AI assistant system from scratch. Whether you want to quickly get started using OpenClaw to boost productivity, or deep dive into its internals and build your own version, this tutorial provides a clear learning path.
+
+**This project includes two core modules:**
+
+1. **Adopt Claw (User Guide)**: 11 chapters + 7 appendices, covering Installation (Ch1-3) + Core Configuration (Ch4-6) + Operations & Extensions (Ch7-9) + Security & Clients (Ch10-11), read as needed
+2. **Build Claw (Developer Guide)**: 15 chapters, from dissecting OpenClaw source code to analyzing alternatives to customizing your own Claw
+
+**Who should learn this:**
+
+- Zero-experience users: Want an AI assistant on standby, no programming experience needed
+- Productivity enthusiasts: Want to remotely control AI via QQ / Feishu / Telegram
+- Tech enthusiasts: Interested in OpenClaw's skill system and automation capabilities
+- Developers: Want to deep dive into Agent architecture and build your own version
+
+## 📖 Tutorial Contents
+
+### Part 1: Adopt Claw (User Guide, 11 Chapters + Appendices A-G)
+
+| Chapter | Description | Status |
+| ---- | ---- | ---- |
+| **Introduction** | **What is OpenClaw, the four-step adoption method, learning roadmap** | ✅ |
+| **🔵 Installation** | | |
+| Chapter 1: AutoClaw Quick Install | Download AutoClaw desktop client, 5-minute zero-barrier experience | ✅ |
+| Chapter 2: OpenClaw Manual Install | Terminal intro, Node.js installation, npm install, onboard wizard | ✅ |
+| Chapter 3: Initial Configuration | CLI wizard, macOS guided setup, Custom Provider, reconfiguration | ✅ |
+| **🟢 Core Configuration** | | |
+| Chapter 4: Chat Platform Integration | Supported platforms overview, complete Feishu integration example, pairing & group chats | ✅ |
+| Chapter 5: Model Management | Model concepts, CLI management, multi-provider config, API Key rotation, failover | ✅ |
+| Chapter 6: Agent Management | Multi-agent management, workspaces, heartbeat, binding rules | ✅ |
+| **🟡 Operations & Extensions** | | |
+| Chapter 7: Tools & Scheduled Tasks | Tool levels, scheduled tasks (cron/at/every), web search | ✅ |
+| Chapter 8: Gateway Operations | Startup management, hot reload, auth security, key management, sandbox policies, log monitoring | ✅ |
+| Chapter 9: Remote Access & Networking | SSH tunnels, Tailscale networking, deployment architecture, security best practices | ✅ |
+| **🔴 Security & Clients** | | |
+| Chapter 10: Security & Threat Models | Threat landscape, VM isolation, trust boundaries, MITRE ATLAS, supply chain security | ✅ |
+| Chapter 11: Web UI & Clients | Dashboard, WebChat, Control UI, TUI, third-party clients | ✅ |
+| **Appendices** | | |
+| Appendix A: Learning Resources | 8 categories of learning resources, 80+ links, editor's picks | ✅ |
+| Appendix B: Community Voice & Ecosystem | 6 major topics in-depth + best quotes | ✅ |
+| Appendix C: Claw Alternatives Comparison | Desktop clients / managed services / cloud providers / self-hosted / mobile, 5 categories | ✅ |
+| Appendix D: Skill Development Guide | SKILL.md format + skill-creator + ClawHub publishing workflow | ✅ |
+| Appendix E: Model Provider Guide | Aggregation gateways / domestic / international / local, 4 categories | ✅ |
+| Appendix F: Command Cheat Sheet | All CLI command reference for installation, config, logs, cron, channels, etc. | ✅ |
+| Appendix G: Config File Reference | openclaw.json parameter-by-parameter walkthrough | ✅ |
+
+### Part 2: Build Claw (Developer Guide, 15 Chapters)
+
+| Chapter | Description | Status |
+| ---- | ---- | ---- |
+| **Introduction** | **Why build your Claw from scratch, OpenClaw's complexity challenges & learning roadmap** | ✅ |
+| **🔵 Tier 1: OpenClaw Internals** (Chapters 1-7) | | |
+| Chapter 1: Core Design Philosophy | Agent Runtime vs Chatbot differences, four primitive tools design philosophy | ✅ |
+| Chapter 2: Architecture Overview | Gateway, Bus, Agent, Provider — four core modules & message flow | ✅ |
+| Chapter 3: Prompt System | 7 Markdown files prompt architecture, hot reload mechanism, Token optimization | ✅ |
+| Chapter 4: Tool System | Four primitive tools deep dive, tool registration, tool descriptions' impact on LLM accuracy, Skill hierarchy | ✅ |
+| Chapter 5: Message Loop & Event-Driven | ReAct loop execution flow, LLM tool selection, heartbeat & automation | ✅ |
+| Chapter 6: Unified Gateway | Gateway architecture, multi-channel integration & message standardization | ✅ |
+| Chapter 7: Security Sandbox | Freedom vs constraints, execution environment isolation & permission control | ✅ |
+| **🟢 Tier 2: Custom Solutions** (Chapters 8-10) | | |
+| Chapter 8: Lightweight Solutions | NanoClaw, Nanobot, ZeroClaw and other community variants | ✅ |
+| Chapter 9: Security Hardening | IronClaw security architecture, sandbox isolation & audit logs | ✅ |
+| Chapter 10: Hardware Solutions | PicoClaw hardware selection, low-power embedded deployment | ✅ |
+| **🟡 Tier 3: Customize Your Claw** (Chapters 11-15) | | |
+| Chapter 11: Customization Overview | Four difficulty levels, use cases & maintenance cost, learning path | 🚧 |
+| Chapter 12: Config-Level Customization | config.json structure, tool whitelist, security configuration | 🚧 |
+| Chapter 13: Skill Development | Skill file structure, Frontmatter format, async handling & debugging | ✅ |
+| Chapter 14: Channel Integration | DingTalk/Feishu integration, channel adapter development, multi-channel config | 🚧 |
+| Chapter 15: Complete Customization Case Study | Programming assistant, personal productivity assistant, smart customer service bot | 🚧 |
 
 ## 🦞 Use Cases
 
@@ -35,41 +112,41 @@ features:
   <tr>
     <td valign="top" width="33%">
       <b>🌅 Personal Productivity</b><br>
-      • Morning briefing<br>
-      • Email auto-classification<br>
+      • Morning briefing (weather + calendar + to-dos)<br>
+      • Email auto-classification & summary<br>
       • Smart scheduling
     </td>
     <td valign="top" width="33%">
       <b>💻 Development</b><br>
-      • Code generation<br>
-      • Automated testing<br>
+      • Code generation & review<br>
+      • Automated testing & deployment<br>
       • Documentation generation
     </td>
     <td valign="top" width="33%">
       <b>📢 Content Creation</b><br>
       • Social media automation<br>
-      • Writing assistance<br>
+      • Writing assistance & polishing<br>
       • Multi-platform publishing
     </td>
   </tr>
   <tr>
     <td valign="top" width="33%">
-      <b>🏢 Business</b><br>
-      • Customer support<br>
-      • Sales follow-up<br>
-      • Meeting scheduling
+      <b>🏢 Business & Sales</b><br>
+      • Customer support & CRM<br>
+      • Sales lead auto-follow-up<br>
+      • Meeting scheduling & notes
     </td>
     <td valign="top" width="33%">
-      <b>🤖 Multi-Agent</b><br>
-      • Team project management<br>
-      • Workflow orchestration<br>
-      • Knowledge sharing
+      <b>🤖 Multi-Agent Collaboration</b><br>
+      • Agent team project management<br>
+      • Automated workflow orchestration<br>
+      • Knowledge base sharing & retrieval
     </td>
     <td valign="top" width="33%">
-      <b>🔧 More</b><br>
+      <b>🔧 More Scenarios</b><br>
       • Smart home control<br>
-      • Financial analysis<br>
-      • Education assistance
+      • Financial data analysis<br>
+      • Education & training
     </td>
   </tr>
   </tbody>
@@ -77,8 +154,10 @@ features:
 
 ## 🔥 Latest Updates
 
-- **[2026-03-10]** ✅ Updated Build Claw Chapter 7-9: Lightweight, Security Hardening, Hardware
-- **[2026-03-04]** 🦞 Project launched with "Adopt Claw" and "Build Claw" modules
+- **[2026-03-10]** ✅ New Lobster University: Menu-style Skills elective guide, equip your lobster with "combat power-ups"
+- **[2026-03-10]** ✅ Updated Build Claw Chapters 7-9: Lightweight, Security Hardening, Hardware Solutions
+- **[2026-03-08]** ✅ Completed Chapters 1-11: Adopt Claw user guide fully complete
+- **[2026-03-04]** 🦞 Project launched with "Adopt Claw" and "Build Claw" core modules
 
 > [!WARNING]
-> 🧪 Beta version: Main content completed, optimizing details. Welcome to submit issues for feedback.
+> 🧪 Beta version: Main content completed, optimizing details. Welcome to submit Issues for feedback or suggestions.
