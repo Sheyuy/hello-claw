@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="asset/logo.svg" alt="Hello Claw Logo" width="400">
+<img src="asset/logo.png" alt="Hello Claw Logo" width="400">
 
 <p align="center"><em>とある目立たないリポジトリから、一匹のロブスターが生まれた。<br>一匹選んで学校に送り出すもよし、自分だけの未定義なロブスターを書くもよし。<br>その夢は、初日から大きかった。</em></p>
 

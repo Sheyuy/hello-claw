@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="asset/logo.svg" alt="Hello Claw Logo" width="400">
+<img src="asset/logo.png" alt="Hello Claw Logo" width="400">
 
 <p align="center"><em>一个不起眼的仓库里，龙虾诞生了。<br>选一只，送它上学堂；或动手写一只不被定义的龙虾。<br>它的梦想，从第一天起就很大。</em></p>
 
