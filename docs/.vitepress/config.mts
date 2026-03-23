@@ -21,7 +21,8 @@ export default defineConfig({
       title: "Hello Claw",
       description: "从零到一学习 OpenClaw：领养你的 AI 龙虾助理，或从零构建属于你的智能体",
       themeConfig: {
-        logo: '🦞',
+        logo: '/logo.svg',
+        siteTitle: false,
         outline: {
           level: [2, 3],
           label: '目录'
@@ -225,7 +226,8 @@ export default defineConfig({
       title: "Hello Claw",
       description: "Learn OpenClaw from scratch: Adopt your AI lobster assistant or build your own agent",
       themeConfig: {
-        logo: '🦞',
+        logo: '/logo.svg',
+        siteTitle: false,
         outline: {
           level: [2, 3],
         },

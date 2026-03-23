@@ -252,25 +252,7 @@ You'll see: how far can complex features be simplified? Which features are indis
 
 ### 2.3 Block Three: Create Your Own (Chapters 11–15)
 
-This block is about "getting your hands dirty," but it's not a dry coding tutorial. We'll use a real case — an editorial team's automation needs — to show you what each customization approach can actually achieve.
-
-#### Chapter 11: Customization Path Overview
-
-The same four "play styles," but this time we'll help you decide where to start:
-
-- **Configuration Player**: Simple config tweaks following the adopt section
-- **Prompt Engineer**: Finer-grained style control
-- **Skill Developer**: Needs to connect external APIs and handle complex logic
-- **Workflow Architect**: Multi-task chaining, multi-Agent collaboration
-
-#### Chapter 12: Deep Prompt Engineering Optimization
-
-Building on Chapter 3's principles, but rather than covering "which files exist," the focus is on how to use them:
-
-- **Multi-file combination strategy**: How to make SOUL.md and SKILL.md work together without conflict
-- **Debugging techniques**: With hot-update in hand, how to rapidly iterate and find the optimal configuration
-- **Memory fine-tuning**: Chapter 3 said MEMORY.md gets compressed — how to keep important content from being squeezed out
-- **Case study**: Xiao Li's "automotive editor" custom persona — the full process from multiple drafts to final version
+This block focuses on hands-on OpenClaw customization. At the moment, only Chapter 13 has been published, so this overview only lists content that already exists to keep navigation aligned with the actual docs.
 
 #### Chapter 13: Skill Development in Practice
 
@@ -280,23 +262,6 @@ Building on Chapter 4's tool system, from description to code:
 - **`impl/` in action**: Moderate-complexity TypeScript — RSS fetching, email parsing, error handling
 - **Subagent calls**: Chapter 4 mentioned the subagent tool; here we see how to use it inside a Skill to decompose tasks
 - **Case study**: Xiao Li's news aggregation Skill — automatic fetching, summary generation, and tag classification all in one
-
-#### Chapter 14: Intelligent Workflow Orchestration
-
-Building on Chapter 5's loops and Chapter 6's channels to build an automation pipeline:
-
-- **Heartbeat + Cron combination**: Chapter 5 covered these two scheduling mechanisms — how to combine them without creating chaos
-- **Advanced browser automation**: Using Chapter 4's Playwright tool for multi-site login and intelligent scraping
-- **Multi-Agent collaboration**: Chapter 3's AGENTS.md role definitions, building an "editorial team": one agent monitors, one handles review, one interfaces with the layout team
-- **Case study**: Xiao Li's morning — waking up to a trending report and copyediting suggestions already prepared by the Agent
-
-#### Chapter 15: Complete Customization Case Studies
-
-Three cases starting from real needs, showing the full journey from idea to implementation:
-
-- **Coding assistant type**: Deep VSCode integration, understands project structure, generates code that meets team standards
-- **Personal productivity assistant type**: An intelligent assistant that integrates email, calendar, notes, and to-dos
-- **Smart customer service bot type**: A multi-turn conversation system based on a knowledge base, with human takeover support
 
 ---
 

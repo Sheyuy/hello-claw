@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="asset/logo.png" alt="Hello Claw Logo" width="400">
+<img src="asset/logo.svg" alt="Hello Claw Logo" width="400">
 
 <p align="center"><em>In an unremarkable repository, a lobster was born.<br>Pick one and send it to school; or write your own undefined lobster.<br>Its dreams have been big from day one.</em></p>
 
@@ -109,11 +109,7 @@ This is a comprehensive tutorial for OpenClaw, helping you master this powerful 
 | Ch.9 Hardware Solutions | PicoClaw hardware, Raspberry Pi, low-power optimization | 🚧 |
 | Ch.10 Case Comparison | Comparison matrix, scenario guide, decision tree | 🚧 |
 | **Part 3: Customize Your Claw** | | |
-| Ch.11 Customization Roadmap | Four-level difficulty, scenarios, maintenance costs | 🚧 |
-| Ch.12 Configuration Customization | config.json structure, tool whitelist, security | 🚧 |
-| Ch.13 Skill Development | Skill structure, Frontmatter, async handlers, debugging | 🚧 |
-| Ch.14 Channel Integration | DingTalk/Feishu workflow, adapter development | 🚧 |
-| Ch.15 Complete Cases | Programming assistant, productivity bot, customer service | 🚧 |
+| Ch.13 Skill Development | Skill structure, Frontmatter, async handlers, debugging | ✅ |
 | **Appendix** | | |
 | Appendix A: OpenClaw Source Navigation | Core files reference, module locations, debugging tips | 🚧 |
 | Appendix B: Reference Projects | Nanobot, NanoClaw, PicoClaw, IronClaw, ZeroClaw | 🚧 |
@@ -125,12 +121,12 @@ This is a comprehensive tutorial for OpenClaw, helping you master this powerful 
 
 | Article | Description | Status |
 | ------- | ----------- | ------ |
-| [Lobster University: Intro & Skills Elective Guide](./docs/cn/university/intro.md) | ClawHub & SkillHub dual entry, skill taxonomy, selection principles and recommended courses | ✅ |
-| [Vibe Coding in Practice](./docs/cn/university/vibe-coding/index.md) | From chat requirements to PR, full "chat-as-code" loop via Feishu | ✅ |
-| [Email Assistant in Practice (163)](./docs/cn/university/email-assistant/index.md) | From IMAP/SMTP config to script validation and cron scheduling | ✅ |
-| [Multi-Agent Collaboration (Multi OpenClaw / HiClaw)](./docs/cn/university/multi-claw-hiclaw/index.md) | From single Worker bottleneck to multi-agent orchestration | ✅ |
-| [Security Checklist](./docs/cn/university/security/index.md) | Security boundaries of skills and tools, auditing and injection prevention | ✅ |
-| [Skill Development: Local Health Assistant](./docs/cn/university/local-health-assistant/index.md) | Building a local-first home health management loop based on MediWise | ✅ |
+| [Lobster University: Intro & Skills Elective Guide](./docs/en/university/intro.md) | ClawHub & SkillHub dual entry, skill taxonomy, selection principles and recommended courses | ✅ |
+| [Vibe Coding in Practice](./docs/en/university/vibe-coding/index.md) | From chat requirements to PR, full "chat-as-code" loop via Feishu | ✅ |
+| [Email Assistant in Practice (163)](./docs/en/university/email-assistant/index.md) | From IMAP/SMTP config to script validation and cron scheduling | ✅ |
+| [Multi-Agent Collaboration (Multi OpenClaw / HiClaw)](./docs/en/university/multi-claw-hiclaw/index.md) | From single Worker bottleneck to multi-agent orchestration | ✅ |
+| [Security Checklist](./docs/en/university/security/index.md) | Security boundaries of skills and tools, auditing and injection prevention | ✅ |
+| [Skill Development: Local Health Assistant](./docs/en/university/local-health-assistant/index.md) | Building a local-first home health management loop based on MediWise | ✅ |
 ---
 
 > 🎉 **Contributions are Welcome!**

@@ -2,36 +2,51 @@
 layout: home
 
 hero:
-  name: "🦞 Hello Claw"
-  text: "Learn OpenClaw from Scratch"
-  tagline: Adopt your AI assistant or build from zero
+  name: "<span class='hero-label'>HELLO CLAW</span>"
+  text: "<span class='hero-line'>Bring OpenClaw</span><span class='hero-line'>fully into your <span class='hero-accent'>workflow</span></span>"
+  tagline: Go from a five-minute setup to real-world scenarios in Lobster University, then all the way into source code, architecture, and customization.
+  image:
+    src: /home-preview.svg
+    alt: Hello Claw homepage preview
   actions:
     - theme: brand
-      text: Get Started
+      text: Start Here
       link: /en/adopt/intro
     - theme: alt
-      text: 🎓 Lobster University
+      text: Explore University
       link: /en/university/
     - theme: alt
-      text: Deep Dive
+      text: Open Build Guide
       link: /en/build/
     - theme: alt
       text: GitHub
       link: https://github.com/datawhalechina/hello-claw
 
 features:
-  - title: 🦞 Adopt Claw (User Guide)
-    details: 11 chapters + 7 appendices, covering Installation → Core Configuration → Operations & Extensions → Security & Clients, read as needed
-  - title: 🛠️ Build Claw (Developer Guide)
-    details: 15 chapters across 3 tiers, from dissecting OpenClaw source code to analyzing alternatives to customizing your own Claw
-  - title: 📱 QQ / Feishu / Telegram Integration
-    details: Three parallel platform routes + selection matrix, control your lobster remotely anytime, anywhere
-  - title: ⚡ Scheduled Tasks & Automation
-    details: Three scheduling methods (cron / at / every) for timed reminders, automated reports, and periodic workflows
-  - title: 🎓 Lobster University
-    details: Menu-style skill selection, start with the 5-10 most useful skills to supercharge your lobster without polluting context
-  - title: 🤖 Multi-Model & Cost Optimization
-    details: Multi-provider configuration, model routing strategies, Ollama local deployment, cost monitoring
+  - title: Get Started Fast
+    details: 11 chapters and 7 appendices covering installation, core setup, operations, security, and clients so you can get OpenClaw running first
+    link: /en/adopt/intro
+    linkText: Open guide
+  - title: Build Your Own
+    details: 15 chapters across 3 tiers, moving from source code walkthroughs and architecture to solution analysis and real customization
+    link: /en/build/
+    linkText: Explore internals
+  - title: Remote Channels
+    details: QQ, Feishu, and Telegram routes with practical setup guides and a selection matrix for remote control anywhere
+    link: /en/adopt/chapter4
+    linkText: View channels
+  - title: Automation Flows
+    details: Use cron, at, and every for reminders, reports, recurring jobs, and hands-off workflow orchestration
+    link: /en/adopt/chapter7
+    linkText: Automate work
+  - title: Scenario Playbooks
+    details: Lobster University turns common use cases into practical skill paths, so you can start with the 5-10 skills that matter most
+    link: /en/university/intro
+    linkText: Pick scenarios
+  - title: Models & Cost
+    details: Configure multiple providers, route models intelligently, deploy Ollama locally, and keep spending under control
+    link: /en/adopt/chapter5
+    linkText: Tune models
 ---
 
 ## Project Overview
@@ -99,11 +114,7 @@ This project is a comprehensive learning tutorial for OpenClaw, helping you mast
 | Chapter 9: Security Hardening | IronClaw security architecture, sandbox isolation & audit logs | ✅ |
 | Chapter 10: Hardware Solutions | PicoClaw hardware selection, low-power embedded deployment | ✅ |
 | **🟡 Tier 3: Customize Your Claw** (Chapters 11-15) | | |
-| Chapter 11: Customization Overview | Four difficulty levels, use cases & maintenance cost, learning path | 🚧 |
-| Chapter 12: Config-Level Customization | config.json structure, tool whitelist, security configuration | 🚧 |
 | Chapter 13: Skill Development | Skill file structure, Frontmatter format, async handling & debugging | ✅ |
-| Chapter 14: Channel Integration | DingTalk/Feishu integration, channel adapter development, multi-channel config | 🚧 |
-| Chapter 15: Complete Customization Case Study | Programming assistant, personal productivity assistant, smart customer service bot | 🚧 |
 
 ## 🦞 Use Cases
 

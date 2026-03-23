@@ -2,36 +2,51 @@
 layout: home
 
 hero:
-  name: "🦞 Hello Claw"
-  text: "从零开始学习 OpenClaw"
-  tagline: 领养你的 AI 助理，或从零构建属于你的智能体
+  name: "<span class='hero-label'>HELLO CLAW</span>"
+  text: "<span class='hero-line'>让 OpenClaw</span><span class='hero-line'>真正进入你的 <span class='hero-accent'>工作流</span></span>"
+  tagline: 从 5 分钟上手，到龙虾大学里的真实场景，再到源码拆解与定制开发，帮你把一个能用的 AI 助理，变成真正适合自己的工作系统。
+  image:
+    src: /home-preview.svg
+    alt: Hello Claw 首页预览
   actions:
     - theme: brand
-      text: 开始学习
+      text: 开始上手
       link: /cn/adopt/intro
     - theme: alt
-      text: 🎓 龙虾大学
+      text: 浏览大学
       link: /cn/university/intro
     - theme: alt
-      text: 深入构建
+      text: 查看构建篇
       link: /cn/build/
     - theme: alt
       text: GitHub
       link: https://github.com/datawhalechina/hello-claw
 
 features:
-  - title: 🦞 领养 Claw（使用篇）
-    details: 11 章 + 7 附录，覆盖安装 → 核心配置 → 扩展运维 → 安全与客户端，按需阅读
-  - title: 🛠️ 构建 Claw（开发篇）
-    details: 15 章三层递进，从拆解 OpenClaw 源码到分析同类方案再到定制属于你的 Claw
-  - title: 📱 QQ / 飞书 / Telegram 接入
-    details: 三路并行平台路线 + 选型矩阵，随时随地远程操控你的龙虾
-  - title: ⚡ 定时任务与自动化
-    details: 三种调度方式（cron / at / every），定时提醒、自动报告、周期性工作流
-  - title: 🎓 龙虾大学
-    details: 菜单式技能选修，从最实用的 5-10 个技能入手，给龙虾装备战斗力，避免污染上下文
-  - title: 🤖 多模型与成本优化
-    details: 多服务商配置、模型路由策略、Ollama 本地部署、费用监控
+  - title: 从零上手
+    details: 11 章 + 7 附录，覆盖安装、核心配置、扩展运维、安全与客户端，帮你先把 OpenClaw 跑起来
+    link: /cn/adopt/intro
+    linkText: 查看使用篇
+  - title: 深入构建
+    details: 15 章三层递进，从源码拆解、架构理解，到方案分析与定制开发，逐步构建属于你的 Claw
+    link: /cn/build/
+    linkText: 查看开发篇
+  - title: 远程接入
+    details: QQ、飞书、Telegram 三路并行，配上选型矩阵与实操指南，让你的龙虾真正随叫随到
+    link: /cn/adopt/chapter4
+    linkText: 查看接入指南
+  - title: 自动化编排
+    details: 支持 cron、at、every 三种调度方式，定时提醒、自动报告、周期性任务都能落地
+    link: /cn/adopt/chapter7
+    linkText: 查看自动化
+  - title: 场景实战
+    details: 龙虾大学按真实问题设计案例，建议先选最常用的 5 到 10 个技能，快速补齐战斗力
+    link: /cn/university/intro
+    linkText: 进入龙虾大学
+  - title: 模型与成本优化
+    details: 覆盖多服务商配置、模型路由、Ollama 本地部署与费用监控，性能和成本一起兼顾
+    link: /cn/adopt/chapter5
+    linkText: 查看模型方案
 ---
 
 ## 项目简介
@@ -99,11 +114,7 @@ features:
 | 第9章：安全加固方案 | IronClaw 安全架构、沙箱隔离与审计日志 | ✅ |
 | 第10章：硬件方案 | PicoClaw 硬件选型、低功耗嵌入式部署 | ✅ |
 | **🟡 第三层：定制你的 Claw**（第11-15章） | | |
-| 第11章：定制方案总览 | 四个难度层级、适用场景与维护成本、学习路径 | 🚧 |
-| 第12章：配置级定制 | config.json 结构、工具白名单、安全配置 | 🚧 |
 | 第13章：技能开发 | Skill 文件结构、Frontmatter 格式、异步处理与调试 | ✅ |
-| 第14章：渠道接入 | 钉钉/飞书接入、渠道适配器开发、多渠道配置 | 🚧 |
-| 第15章：完整定制案例 | 编程助理、个人生产力助理、智能客服机器人 | 🚧 |
 
 ## 🦞 应用场景
 

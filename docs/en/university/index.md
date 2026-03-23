@@ -100,3 +100,85 @@ clawhub install gog
 
 **One-sentence graduation requirement**: The key to making the claw "useful" is not installing the most skills, but installing the right ones.
 Pick 5 from this menu first, get your own first automation loop running, then keep adding.
+
+## 6. `awesome-openclaw-skills` Example Bundles
+
+The following set is a "copy directly" shortlist selected from [awesome-openclaw-skills (5,000+ categorized skills)](https://github.com/VoltAgent/awesome-openclaw-skills). It gives you a first batch of candidates organized by scenario.
+
+### 6.1 Development Collaboration (Coding + PR)
+
+- [`github`](https://clawhub.ai/steipete/github): query and operate repositories, issues, PRs, and releases
+- [`code-reviewer`](https://clawhub.ai/skills?nonSuspicious=true&q=code-reviewer): review changes and surface risks
+- [`git-ops`](https://clawhub.ai/skills?nonSuspicious=true&q=git-ops): automate common Git workflows
+- [`summarize`](https://clawhub.ai/skills?nonSuspicious=true&q=summarize): quickly summarize PRs and docs
+
+Example task:
+
+```text
+Help me review the high-priority issues created in this repository over the last 7 days, suggest a repair priority order, and generate a PR review checklist.
+```
+
+### 6.2 Research and Search (Search + Browser)
+
+- [`tavily-search`](https://clawhub.ai/bert-builder/tavily): search the web for current information
+- [`hackernews`](https://clawhub.ai/skills?nonSuspicious=true&q=hackernews): aggregate technical news
+- [`agent-browser`](https://clawhub.ai/thesethrose/agent-browser): execute browser steps and extract structured content
+- [`summarize`](https://clawhub.ai/skills?nonSuspicious=true&q=summarize): compress long content and extract the key points
+
+Example task:
+
+```text
+Help me research articles from the last 3 months about "OpenClaw multi-agent orchestration," organize them into a comparison table, and give me implementation advice.
+```
+
+### 6.3 Personal Productivity (Calendar + Email + Tasks)
+
+- [`caldav-calendar`](https://clawhub.ai/asleep123/caldav-calendar): query schedules and detect conflicts
+- [`agentmail`](https://clawhub.ai/adboio/agentmail): email send/receive workflows
+- [`todoist`](https://clawhub.ai/skills?nonSuspicious=true&q=todoist): task breakdown and tracking
+- [`gog`](https://clawhub.ai/skills?nonSuspicious=true&q=gog): Google ecosystem coordination for Gmail, Calendar, and Drive
+
+Example task:
+
+```text
+Send me a "daily briefing" every morning at 9:00 with schedule conflicts, my top 3 tasks, and the important unread emails from last night.
+```
+
+### 6.4 Operations Automation (DevOps + Cloud)
+
+- [`devops`](https://clawhub.ai/tkuehnl/agentic-devops): script common operations actions
+- [`aws-infra`](https://clawhub.ai/skills?nonSuspicious=true&q=aws-infra): inspect AWS resources
+- [`azure-devops`](https://clawhub.ai/pals-software/azure-devops): integrate pipelines and project management
+- [`playwright`](https://clawhub.ai/skills?nonSuspicious=true&q=playwright): regression checks for web consoles
+
+Example task:
+
+```text
+Run a production environment inspection every Monday: certificate expiry, instance health, and failed pipelines, then generate repair suggestions.
+```
+
+### 6.5 Security and Risk Control
+
+- [`skill-vetter`](https://clawhub.ai/spclaudehome/skill-vetter): security health check before installing Skills
+- [`1password`](https://clawhub.ai/skills?nonSuspicious=true&q=1password): credential storage and retrieval
+- [`amai-id`](https://clawhub.ai/skills?nonSuspicious=true&q=amai-id): identity and risk verification
+- [`summarize`](https://clawhub.ai/skills?nonSuspicious=true&q=summarize): summarize security advisories and vulnerability notices
+
+Example task:
+
+```text
+Before installing any new Skill, run a risk scan first and output one of three results: safe to install, needs manual review, or do not install.
+```
+
+### 6.6 Document Processing (PDF + Knowledge)
+
+- [`add-watermark-to-pdf`](https://clawhub.ai/skills?nonSuspicious=true&q=add-watermark-to-pdf): batch process PDFs
+- [`agentmail`](https://clawhub.ai/adboio/agentmail): attachment routing
+- [`obsidian`](https://clawhub.ai/skills?nonSuspicious=true&q=obsidian): preserve notes and knowledge
+- [`notion`](https://clawhub.ai/tyler6204/better-notion): sync to a team knowledge base
+
+Example task:
+
+```text
+Apply a watermark to all PDF reports received this week, summarize them, and sync them to the "weekly-report-materials" folders in Notion and Obsidian.
+```

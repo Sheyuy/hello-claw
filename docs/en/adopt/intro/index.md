@@ -154,7 +154,7 @@ This layered design makes OpenClaw both flexible and controllable. For details, 
 
 Adopting a lobster is essentially like hiring an employee — you just need four things:
 
-![4 things you need to raise a lobster](./images/龙虾套装.png)
+![4 things you need to raise a lobster](./images/lobster-starter-kit.png)
 
 | Step | Analogy | What You Do | Chapter |
 |------|---------|------------|---------|

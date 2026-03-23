@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="asset/logo.png" alt="Hello Claw Logo" width="400">
+<img src="asset/logo.svg" alt="Hello Claw Logo" width="400">
 
 <p align="center"><em>とある目立たないリポジトリから、一匹のロブスターが生まれた。<br>一匹選んで学校に送り出すもよし、自分だけの未定義なロブスターを書くもよし。<br>その夢は、初日から大きかった。</em></p>
 
@@ -108,12 +108,6 @@ https://datawhalechina.github.io/hello-claw
 | 第8章 セキュリティ強化 | IronClawアーキテクチャ、権限管理、サンドボックス、監査ログ | 🚧 |
 | 第9章 ハードウェアソリューション | PicoClawハードウェア、Raspberry Pi、低消費電力最適化 | 🚧 |
 | 第10章 ケース比較 | 比較マトリクス、シナリオガイド、デシジョンツリー | 🚧 |
-| **パート3：自分だけのClawをカスタマイズ** | | |
-| 第11章 カスタマイズロードマップ | 4段階の難易度、シナリオ、メンテナンスコスト | 🚧 |
-| 第12章 設定カスタマイズ | config.json構造、ツールホワイトリスト、セキュリティ | 🚧 |
-| 第13章 スキル開発 | スキル構造、Frontmatter、非同期ハンドラー、デバッグ | 🚧 |
-| 第14章 チャネル統合 | DingTalk/Feishuワークフロー、アダプター開発 | 🚧 |
-| 第15章 完全なケーススタディ | プログラミングアシスタント、生産性ボット、カスタマーサービス | 🚧 |
 | **付録** | | |
 | 付録A：OpenClawソースナビゲーション | コアファイルリファレンス、モジュールの場所、デバッグのヒント | 🚧 |
 | 付録B：参考プロジェクト | Nanobot、NanoClaw、PicoClaw、IronClaw、ZeroClaw | 🚧 |

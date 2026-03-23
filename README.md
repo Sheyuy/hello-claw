@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="asset/logo.png" alt="Hello Claw Logo" width="400">
+<img src="asset/logo.svg" alt="Hello Claw Logo" width="400">
 
 <p align="center"><em>一个不起眼的仓库里，龙虾诞生了。<br>选一只，送它上学堂；或动手写一只不被定义的龙虾。<br>它的梦想，从第一天起就很大。</em></p>
 
@@ -118,11 +118,7 @@ https://datawhalechina.github.io/hello-claw
 | 第 9 章 安全加固方案                               | IronClaw 安全架构、沙箱隔离与审计日志                                | ✅   |
 | 第 10 章 硬件方案                                  | PicoClaw 硬件选型、低功耗嵌入式部署                                  | ✅   |
 | **🟡 第三层：定制你的 Claw**（第 11～15 章） |                                                                      |      |
-| 第 11 章 定制路径概览                              | 四级定制难度、适用场景与维护成本、学习路线                           | 🚧   |
-| 第 12 章 配置文件级定制                            | config.json 结构、工具白名单、安全配置                               | 🚧   |
 | 第 13 章 Skill 编写                                | Skill 文件结构、Frontmatter 格式、异步处理与调试                     | ✅   |
-| 第 14 章 渠道接入                                  | 钉钉/飞书接入流程、渠道适配器编写、多渠道配置                        | 🚧   |
-| 第 15 章 完整定制案例                              | 编程助手、个人效率助手、智能客服机器人实战                           | 🚧   |
 
 ---
 
