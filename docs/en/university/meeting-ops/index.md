@@ -129,4 +129,4 @@ A: Enforce the rule "no unassigned items leave the meeting," and let automation 
 
 - [Customer Support and CRM Coordination Assistant](/en/university/revops-assistant/)
 - [Knowledge Base Sharing and Retrieval](/en/university/knowledge-base/)
-- [Voice Research in Practice](/en/university/voice-research/)
+- [Automated Research in Practice](/en/university/vibe-research/)

@@ -159,6 +159,6 @@ A：给 P1 任务加每日提醒，并在周会前自动汇总“未完成行动
 ## 9. 相关阅读
 
 - [邮箱助手实战（163）](/cn/university/email-assistant/)
-- [语音调研实战](/cn/university/voice-research/)
+- [自动化科研实战](/cn/university/vibe-research/)
 - [Vibe Coding 实战](/cn/university/vibe-coding/)
 - [第七章 工具与定时任务](/cn/adopt/chapter7/)

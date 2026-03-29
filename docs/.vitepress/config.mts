@@ -240,7 +240,7 @@ export default defineConfig({
             {
               text: '📢 内容创作',
               items: [
-                { text: '语音调研实战', link: '/cn/university/voice-research/' },
+                { text: '自动化科研实战', link: '/cn/university/vibe-research/' },
                 { text: '社交媒体自动运营与分发', link: '/cn/university/content-studio/' },
               ]
             },
@@ -450,7 +450,7 @@ export default defineConfig({
                 { text: 'Security Checklist', link: '/en/university/security/' },
                 { text: 'Vibe Coding Hands-On', link: '/en/university/vibe-coding/' },
                 { text: 'Paper Push Assistant', link: '/en/university/paper-assistant/' },
-                { text: 'Voice Research in Practice', link: '/en/university/voice-research/' },
+                { text: 'Automated Research in Practice', link: '/en/university/vibe-research/' },
                 { text: 'Local Health Assistant', link: '/en/university/local-health-assistant/' },
               ]
             }

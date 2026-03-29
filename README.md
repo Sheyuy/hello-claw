@@ -91,7 +91,7 @@ https://datawhalechina.github.io/hello-claw
     </td>
     <td valign="top" width="33%">
       <b>📢 内容创作</b><br>
-      • <a href="./docs/cn/university/voice-research/index.md">语音调研实战</a><br>
+      • <a href="./docs/cn/university/vibe-research/index.md">自动化科研实战</a><br>
       • <a href="./docs/cn/university/content-studio/index.md">内容创作工作室：社媒运营、写作润色与多平台发布</a>
     </td>
   </tr>

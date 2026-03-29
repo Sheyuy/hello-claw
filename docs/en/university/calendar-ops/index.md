@@ -159,6 +159,6 @@ A: Add a daily reminder for P1 tasks, and auto-summarize "incomplete action item
 ## 9. Related Reading
 
 - [Email Assistant in Practice (163)](/en/university/email-assistant/)
-- [Voice Research in Practice](/en/university/voice-research/)
+- [Automated Research in Practice](/en/university/vibe-research/)
 - [Vibe Coding in Practice](/en/university/vibe-coding/)
 - [Chapter 7: Tools and Scheduled Tasks](/en/adopt/chapter7/)
